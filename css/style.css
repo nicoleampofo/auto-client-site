@@ -1046,7 +1046,7 @@ ol.flex-control-nav { display: none; }
   }
 }
 
-#iframe-style {
+iframe {
   display: inline-block;
   width: 100%;
 }
