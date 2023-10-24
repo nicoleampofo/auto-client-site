@@ -6,78 +6,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Akuma Gami Auto Shop</title>
   <meta name="description" content="">
-<!--
-Motor Template
-http://www.templatemo.com/tm-463-motor
--->
+
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/templatemo-style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+  <body class="about-page">
+  <!-- Preloader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+  <!-- End Preloader -->
 
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-      </head>
-      <body class="about-page">
-
-        <!-- Preloader -->
-        <div id="loader-wrapper">
-          <div id="loader"></div>
-          <div class="loader-section section-left"></div>
-          <div class="loader-section section-right"></div>
-        </div>
-        <!-- End Preloader -->
-
-        <section class="templatemo-top-section">
-          <div class="templatemo-header">
-            <img class="templatemo-header-img" src="img/header.png" alt="Header">
-            <h1 class="templatemo-site-name">Akuma Gami Auto Shop</h1>
-            <div class="mobile-menu-icon">
-              <i class="fa fa-bars"></i>
-            </div>
-            <div class="templatemo-nav-container">
-              <nav class="templatemo-nav">
-                <ul>
-                 <li><a href="index.html" class="active">Home</a></li>
-                 <!-- <li><a href="products.html">Products</a></li> -->
-                 <li><a href="services.html">Services</a></li>
-                 <li><a href="gallery.html">Gallery</a></li>
-                 <li><a href="contact.html">Contact</a></li>
-               </ul>
-             </nav>
-           </div>
-         </div>
-         <div class="templatemo-welcome welcome-slider">
-          <div class="container">
-            <div class="row">
-                <div>
-                    <div class="about-slider">
-                      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <img src="img/about/1.jpg" class="img-responsive" alt="Image">
-                      </div>
-                      <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
-                        <h2 class="text-uppercase welcome-title">
-                          <span class="welcome-title-1">Book Today.</span>
-                      		<span class="welcome-title-2">Great prices. Great service.</span>
-                          <button>Book Now</button>
-                        </h2>
-                      </div>
-                    </div>
-                </div>
+    <section class="templatemo-top-section">
+      <div class="templatemo-header">
+        <img class="templatemo-header-img" src="img/header.png" alt="Header">
+        <h1 class="templatemo-site-name">Akuma Gami Auto Shop</h1>
+        <div class="mobile-menu-icon">
+          <i class="fa fa-bars"></i>
+      </div>
+      <div class="templatemo-nav-container">
+        <nav class="templatemo-nav">
+          <ul>
+            <li><a href="#top" class="active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+      <div class="templatemo-welcome welcome-slider">
+      <div class="container">
+        <div class="row">
+          <div>
+            <div class="about-slider">
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <img src="img/about/1.jpg" class="img-responsive" alt="Image">
+              </div>
+              <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 about-slider-description">
+                <h2 class="text-uppercase welcome-title">
+                  <span class="welcome-title-2">Great prices. Great service.</span>
+                  <button><a href="#services">Book Now</a></button>
+                </h2>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+  </section>
 
-      </section>
-
-    <!--Main content-->
-    <section class="container margin-bottom-50">
+    <!--Main content/Services-->
+    <section class="container margin-bottom-50" id="services">
       <div class="services-container-1">
-        <h2 class="services-title">Customer Services</h2>
+        <h2 class="services-title">Services</h2>
         <div class="services-blocks-container">
           <div class="services-block">
             <div class="services-header">
@@ -132,18 +117,10 @@ http://www.templatemo.com/tm-463-motor
           <a href="#" class="about-link about-link-2">Details</a>
         </div>
       </div>
+    </section>
 
-    <!-- Gallery -->
-    <!-- <section class="container margin-bottom-50">
-      <div class="row">
-       <h2 class="col-lg-12 text-center text-uppercase margin-bottom-30">Donec pede justo fringilla ulputate eget</h2>
-       <p class="col-lg-12 text-center margin-bottom-30">Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-       <img src="img/gallery-header.jpg" alt="Image description" class="img-responsive col-lg-12">
-     </div>
-   </section> -->
-
-   <!--Main content-->
-   <section class="container margin-bottom-50">
+   <!--Gallery-->
+   <section id="gallery" class="container margin-bottom-50">
      <div class="row">
        <div class="tm-gallery col-lg-12">
          <div class="tm-item-container">
@@ -156,15 +133,15 @@ http://www.templatemo.com/tm-463-motor
              </a>
            </div>
          </div>
-         <div class="tm-item-container">
-           <img src="img/gallery/1.jpg" alt="Image">
-           <div class="tm-item-price-container tm-gallery-item-info">
-             <span class="tm-item-price">B Class</span>
-             <a href="#" class="tm-item-link">
-               <span class="tm-item-action">View More</span>
-               <img src="img/plus.png" class="tm-item-add-icon" alt="Image">
-             </a>
-           </div>
+        <div class="tm-item-container">
+            <img src="img/gallery/1.jpg" alt="Image">
+            <div class="tm-item-price-container tm-gallery-item-info">
+            <span class="tm-item-price">B Class</span>
+            <a href="#" class="tm-item-link">
+              <span class="tm-item-action">View More</span>
+              <img src="img/plus.png" class="tm-item-add-icon" alt="Image">
+            </a>
+        </div>
          </div>
          <div class="tm-item-container">
            <img src="img/gallery/0.jpg" alt="Image">
@@ -186,97 +163,18 @@ http://www.templatemo.com/tm-463-motor
              </a>
            </div>
          </div>
-         <div class="tm-item-container">
-           <img src="img/gallery/1.jpg" alt="Image">
-           <div class="tm-item-price-container tm-gallery-item-info">
-             <span class="tm-item-price">S Class</span>
-             <a href="#" class="tm-item-link">
-               <span class="tm-item-action">View More</span>
-               <img src="img/plus.png" class="tm-item-add-icon" alt="Image">
-             </a>
-           </div>
-         </div>
-         <div class="tm-item-container">
-           <img src="img/gallery/0.jpg" alt="Image">
-           <div class="tm-item-price-container tm-gallery-item-info">
-             <span class="tm-item-price">G Class</span>
-             <a href="#" class="tm-item-link">
-               <span class="tm-item-action">View More</span>
-               <img src="img/plus.png" class="tm-item-add-icon" alt="Image">
-             </a>
-           </div>
-         </div>
-         <div class="tm-item-container">
-           <img src="img/gallery/1.jpg" alt="Image">
-           <div class="tm-item-price-container tm-gallery-item-info">
-             <span class="tm-item-price">Benz</span>
-             <a href="#" class="tm-item-link">
-               <span class="tm-item-action">View More</span>
-               <img src="img/plus.png" class="tm-item-add-icon" alt="Image">
-             </a>
-           </div>
-         </div>
-         <div class="tm-item-container">
-           <img src="img/gallery/0.jpg" alt="Image">
-           <div class="tm-item-price-container tm-gallery-item-info">
-             <span class="tm-item-price">Benz</span>
-             <a href="#" class="tm-item-link">
-               <span class="tm-item-action">View More</span>
-               <img src="img/plus.png" class="tm-item-add-icon" alt="Image">
-             </a>
-           </div>
-         </div>
-         <div class="tm-item-container">
-           <img src="img/gallery/0.jpg" alt="Image">
-           <div class="tm-item-price-container tm-gallery-item-info">
-             <span class="tm-item-price">Benz</span>
-             <a href="#" class="tm-item-link">
-               <span class="tm-item-action">View More</span>
-               <img src="img/plus.png" class="tm-item-add-icon" alt="Image">
-             </a>
-           </div>
-         </div>
-         <div class="tm-item-container">
-           <img src="img/gallery/1.jpg" alt="Image">
-           <div class="tm-item-price-container tm-gallery-item-info">
-             <span class="tm-item-price">Benz</span>
-             <a href="#" class="tm-item-link">
-               <span class="tm-item-action">View More</span>
-               <img src="img/plus.png" class="tm-item-add-icon" alt="Image">
-             </a>
-           </div>
-         </div>
-         <div class="tm-item-container">
-           <img src="img/gallery/0.jpg" alt="Image">
-           <div class="tm-item-price-container tm-gallery-item-info">
-             <span class="tm-item-price">Benz</span>
-             <a href="#" class="tm-item-link">
-               <span class="tm-item-action">View More</span>
-               <img src="img/plus.png" class="tm-item-add-icon" alt="Image">
-             </a>
-           </div>
-         </div>
-         <div class="tm-item-container">
-           <img src="img/gallery/1.jpg" alt="Image">
-           <div class="tm-item-price-container tm-gallery-item-info">
-             <span class="tm-item-price">Benz</span>
-             <a href="#" class="tm-item-link">
-               <span class="tm-item-action">View More</span>
-               <img src="img/plus.png" class="tm-item-add-icon" alt="Image">
-             </a>
-           </div>
          </div>
        </div>
      </div>
 
     <!-- Contact -->
-    <section class="container tm-contact-main">
+    <div id="contact" class="container tm-contact-main">
       <div class="row">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d746.2194686011386!2d-81.54596883587445!3d41.57188766672327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830ffb24da462d5%3A0x7517125a81fe2033!2sCar%20dealership!5e0!3m2!1sen!2sus!4v1695083094480!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>
-      <div class="row">
+        <iframe id="iframe-style"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d746.2194686011386!2d-81.54596883587445!3d41.57188766672327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830ffb24da462d5%3A0x7517125a81fe2033!2sCar%20dealership!5e0!3m2!1sen!2sus!4v1695083094480!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+        <div class="row">
         <div class="contact-form-container">
           <h2 class="contact-title">Contact Us</h2>
-          <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Drbi accumsan ipsum velit.</p>
           <form action="#" method="post" class="tm-contact-form">
               <div class="col-lg-5 col-md-5 contact-form-left">
                 <div class="form-group">
@@ -300,14 +198,6 @@ http://www.templatemo.com/tm-463-motor
           </form>
         </div>
       </div>
-      <!--banner-->
-      <div class="row">
-        <div class="tm-banner">
-          <h2 class="tm-banner-title">Maecenas</h2>
-          <p class="tm-banner-description">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium</p>
-          <a href="#" class="tm-banner-link"><i class="fa fa-play"></i></a>
-        </div>
-      </div>
     </section>
 
     <!--Footer content-->
@@ -315,34 +205,31 @@ http://www.templatemo.com/tm-463-motor
       <div class="container">
         <div class="row margin-bottom-60">
           <nav class="col-lg-3 col-md-3 tm-footer-nav tm-footer-div">
-            <h3 class="tm-footer-div-title">Main Menu</h3>
+            <h3 class="tm-footer-div-title">Menu</h3>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="gallery.html">Directory</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="services.html">Our Services</a></li>
+              <li><a href="#top">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
           <div class="col-lg-5 col-md-5 tm-footer-div">
             <h3 class="tm-footer-div-title">About Us</h3>
-            <p class="margin-top-15">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
-            <p class="margin-top-15">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
-          </div>
+            <p class="margin-top-15">Johnathan Carter has been serving customers in the Cleveland area's auto service for years. Bring your car in for exceptional service.</p>
+            </div>
           <div class="col-lg-4 col-md-4 tm-footer-div">
             <h3 class="tm-footer-div-title">Get Social</h3>
-            <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
             <div class="tm-social-icons-container">
+              <a href="#" class="tm-social-icon"><i class="fa fa-phone"></i></a>
               <a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
               <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
               <a href="#" class="tm-social-icon"><i class="fa fa-linkedin"></i></a>
               <a href="#" class="tm-social-icon"><i class="fa fa-youtube"></i></a>
-              <a href="#" class="tm-social-icon"><i class="fa fa-behance"></i></a>
             </div>
           </div>
         </div>
         <div class="row tm-copyright">
-          <p class="col-lg-12 small copyright-text text-center">Copyright &copy; 2084 Company Name</p>
+          <p class="col-lg-12 small copyright-text text-center">Site created by <a href="https://nicoleampofo.onrender.com">Nicole Ampofo</a></p>
         </div>
       </div>
     </footer> <!-- Footer content-->

@@ -1,5 +1,5 @@
 /*
- 
+
 Motor Template
 
 http://www.templatemo.com/tm-463-motor
@@ -11,10 +11,10 @@ http://www.templatemo.com/tm-463-motor
 .blue { color: #3CF; }
 .green { color: #6F6; }
 
-/* 
+/*
 
-Preloader 
- 
+Preloader
+
 https://ihatetomatoes.net/create-custom-preloading-screen/
 
 */
@@ -75,7 +75,7 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
     }
 
     @-webkit-keyframes spin {
-        0%   { 
+        0%   {
             -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
             -ms-transform: rotate(0deg);  /* IE 9 */
             transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
@@ -87,7 +87,7 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
         }
     }
     @keyframes spin {
-        0%   { 
+        0%   {
             -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
             -ms-transform: rotate(0deg);  /* IE 9 */
             transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
@@ -125,7 +125,7 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
             -ms-transform: translateX(-100%);  /* IE 9 */
                 transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
 
-        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
+        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
                 transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     }
 
@@ -134,13 +134,13 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
             -ms-transform: translateX(100%);  /* IE 9 */
                 transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
 
--webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
+-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
         transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     }
-    
+
     .loaded #loader {
         opacity: 0;
-        -webkit-transition: all 0.3s ease-out;  
+        -webkit-transition: all 0.3s ease-out;
                 transition: all 0.3s ease-out;
     }
     .loaded #loader-wrapper {
@@ -150,10 +150,10 @@ https://ihatetomatoes.net/create-custom-preloading-screen/
             -ms-transform: translateY(-100%);  /* IE 9 */
                 transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
 
-        -webkit-transition: all 0.3s 1s ease-out;  
+        -webkit-transition: all 0.3s 1s ease-out;
                 transition: all 0.3s 1s ease-out;
     }
-    
+
     /* JavaScript Turned Off */
     .no-js #loader-wrapper {
         display: none;
@@ -168,8 +168,8 @@ ul {
   padding: 0;
 }
 a:hover, a:focus { text-decoration: none; }
-body { 
-  background-color: #EAE9EF; 
+body {
+  background-color: #EAE9EF;
   overflow-x: hidden;
 }
 .container { max-width: 990px; }
@@ -362,12 +362,12 @@ body {
   font-size: 20px;
 }
 .tm-call-us-link {
-  color: #b53636;    
+  color: #b53636;
   font-weight: 700;
 }
 
 /* Gallery Content */
-.tm-gallery-title { 
+.tm-gallery-title {
   font-size: 22px;
   font-weight: 700;
   margin-top: 10px;
@@ -387,7 +387,7 @@ body {
 .tm-item-price {
   font-weight: 700;
 }
-.tm-item-action {  
+.tm-item-action {
   color: #B4B4B4;
   font-size: 12px;
   font-weight: 700;
@@ -428,8 +428,8 @@ body {
   /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/banner-bg.jpg) no-repeat left top;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner-bg.jpg) no-repeat left top;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner-bg.jpg) no-repeat left top; 
-  background-size: cover; 
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner-bg.jpg) no-repeat left top;
+  background-size: cover;
   color: white;
 }
 .tm-banner-title {
@@ -470,7 +470,7 @@ footer.tm-footer {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/footer-bg.jpg) no-repeat left top;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/footer-bg.jpg) no-repeat left top;
   background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ), url(../img/footer-bg.jpg) no-repeat left top;
   background-size: cover;
@@ -599,8 +599,8 @@ footer.tm-footer {
   transition: all 1s ease;
 }
 ol.flex-control-nav { display: none; }
-.slides, .slides > li, 
-.flex-control-nav, 
+.slides, .slides > li,
+.flex-control-nav,
 .flex-direction-nav {
   margin: 0;
   padding: 0;
@@ -668,7 +668,7 @@ ol.flex-control-nav { display: none; }
   width: 50%;
   max-width: 460px;
 }
-.about-container-right {  
+.about-container-right {
   padding: 40px;
 }
 .about-title {
@@ -734,16 +734,16 @@ ol.flex-control-nav { display: none; }
 .contact-form-left { padding-left: 0; }
 .contact-form-right { padding-right: 0; }
 .margin-bottom-0 { margin-bottom: 0; }
-.form-control { 
+.form-control {
   background-color: #f0f0f0;
-  border-radius: 0; 
+  border-radius: 0;
 }
 .form-control:focus {
   border-color: #d54a4a;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(213,74,74,.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(213,74,74,.6);
 }
-.templatemo-submit-btn { 
+.templatemo-submit-btn {
   background: #d54a4a;
   border-radius: 0;
   color: white;
@@ -754,7 +754,7 @@ ol.flex-control-nav { display: none; }
 .templatemo-submit-btn:hover,
 .templatemo-submit-btn:focus {
   background: #972828;
-  color: white;  
+  color: white;
 }
 .submit-btn-container {
   padding-left: 0;
@@ -899,7 +899,7 @@ ol.flex-control-nav { display: none; }
  .about-slider { max-width: 670px; }
  .about-container,
  .about-container-2 {
-    display: inline-block;    
+    display: inline-block;
  }
  .about-container-2 {
   padding: 30px;
@@ -928,7 +928,7 @@ ol.flex-control-nav { display: none; }
  }
  .contact-form-right {
   padding-left: 0;
-  margin-top: 15px; 
+  margin-top: 15px;
  }
  .submit-btn-container { margin-top: 15px; }
  .templatemo-submit-btn { width: 100%; }
@@ -989,11 +989,11 @@ ol.flex-control-nav { display: none; }
   .tm-banner-title { margin: 20px auto; }
   .tm-banner-description { margin: 0 15px 20px 15px; }
   .tm-banner-link { width: 100%; }
-  
-  .about-page .templatemo-welcome, 
-  .contact-page .templatemo-welcome, 
-  .services-page .templatemo-welcome { 
-    padding-bottom: 0; 
+
+  .about-page .templatemo-welcome,
+  .contact-page .templatemo-welcome,
+  .services-page .templatemo-welcome {
+    padding-bottom: 0;
   }
 
   .about-page .templatemo-welcome {
@@ -1046,3 +1046,11 @@ ol.flex-control-nav { display: none; }
   }
 }
 
+#iframe-style {
+  display: inline-block;
+  width: 100%;
+}
+
+button {
+  border-radius: 8px;
+}
